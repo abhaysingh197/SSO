@@ -12,6 +12,14 @@
 		0D2F49EC1E393C2300D123C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F49EA1E393C2300D123C3 /* Main.storyboard */; };
 		0D2F49EE1E393C2300D123C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F49ED1E393C2300D123C3 /* Assets.xcassets */; };
 		0D2F49F11E393C2300D123C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F49EF1E393C2300D123C3 /* LaunchScreen.storyboard */; };
+		0D2F49F91E393D4C00D123C3 /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F49F81E393D4C00D123C3 /* KeychainSwiftDistrib.swift */; };
+		0D2F4A211E394F3000D123C3 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F4A201E394F3000D123C3 /* WelcomeController.swift */; };
+		0D8383E11E3EF86500B1C149 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8383E01E3EF86500B1C149 /* ProfileViewController.swift */; };
+		0DBB3FCE1E3AB2B400A1F1A0 /* AccountObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBB3FCD1E3AB2B400A1F1A0 /* AccountObject.swift */; };
+		0DBB3FD01E3AB59E00A1F1A0 /* SSOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBB3FCF1E3AB59E00A1F1A0 /* SSOManager.swift */; };
+		0DBB3FD41E3C611400A1F1A0 /* accountManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBB3FD31E3C611400A1F1A0 /* accountManagerController.swift */; };
+		0DBB3FD61E3C680900A1F1A0 /* accountEnableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBB3FD51E3C680900A1F1A0 /* accountEnableCell.swift */; };
+		0DBB3FD81E3C6AB400A1F1A0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBB3FD71E3C6AB400A1F1A0 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,15 @@
 		0D2F49ED1E393C2300D123C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D2F49F01E393C2300D123C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D2F49F21E393C2300D123C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2F49F81E393D4C00D123C3 /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
+		0D2F49FA1E393E3500D123C3 /* testFirst.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testFirst.entitlements; sourceTree = "<group>"; };
+		0D2F4A201E394F3000D123C3 /* WelcomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		0D8383E01E3EF86500B1C149 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0DBB3FCD1E3AB2B400A1F1A0 /* AccountObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountObject.swift; sourceTree = "<group>"; };
+		0DBB3FCF1E3AB59E00A1F1A0 /* SSOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSOManager.swift; sourceTree = "<group>"; };
+		0DBB3FD31E3C611400A1F1A0 /* accountManagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accountManagerController.swift; sourceTree = "<group>"; };
+		0DBB3FD51E3C680900A1F1A0 /* accountEnableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accountEnableCell.swift; sourceTree = "<group>"; };
+		0DBB3FD71E3C6AB400A1F1A0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +71,18 @@
 		0D2F49E51E393C2300D123C3 /* testFirst */ = {
 			isa = PBXGroup;
 			children = (
+				0DBB3FCF1E3AB59E00A1F1A0 /* SSOManager.swift */,
+				0DBB3FCD1E3AB2B400A1F1A0 /* AccountObject.swift */,
+				0DBB3FD71E3C6AB400A1F1A0 /* BaseViewController.swift */,
+				0D2F49FA1E393E3500D123C3 /* testFirst.entitlements */,
 				0D2F49E61E393C2300D123C3 /* AppDelegate.swift */,
 				0D2F49E81E393C2300D123C3 /* ViewController.swift */,
+				0D8383E01E3EF86500B1C149 /* ProfileViewController.swift */,
+				0D2F4A201E394F3000D123C3 /* WelcomeController.swift */,
 				0D2F49EA1E393C2300D123C3 /* Main.storyboard */,
+				0DBB3FD51E3C680900A1F1A0 /* accountEnableCell.swift */,
+				0DBB3FD31E3C611400A1F1A0 /* accountManagerController.swift */,
+				0D2F49F81E393D4C00D123C3 /* KeychainSwiftDistrib.swift */,
 				0D2F49ED1E393C2300D123C3 /* Assets.xcassets */,
 				0D2F49EF1E393C2300D123C3 /* LaunchScreen.storyboard */,
 				0D2F49F21E393C2300D123C3 /* Info.plist */,
@@ -98,6 +124,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DXK2N8YN8R;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,7 +169,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D2F49E91E393C2300D123C3 /* ViewController.swift in Sources */,
+				0DBB3FD01E3AB59E00A1F1A0 /* SSOManager.swift in Sources */,
+				0D8383E11E3EF86500B1C149 /* ProfileViewController.swift in Sources */,
+				0DBB3FCE1E3AB2B400A1F1A0 /* AccountObject.swift in Sources */,
 				0D2F49E71E393C2300D123C3 /* AppDelegate.swift in Sources */,
+				0D2F4A211E394F3000D123C3 /* WelcomeController.swift in Sources */,
+				0DBB3FD81E3C6AB400A1F1A0 /* BaseViewController.swift in Sources */,
+				0DBB3FD41E3C611400A1F1A0 /* accountManagerController.swift in Sources */,
+				0DBB3FD61E3C680900A1F1A0 /* accountEnableCell.swift in Sources */,
+				0D2F49F91E393D4C00D123C3 /* KeychainSwiftDistrib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testFirst/testFirst.entitlements;
 				DEVELOPMENT_TEAM = DXK2N8YN8R;
 				INFOPLIST_FILE = testFirst/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testFirst/testFirst.entitlements;
 				DEVELOPMENT_TEAM = DXK2N8YN8R;
 				INFOPLIST_FILE = testFirst/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -300,6 +341,7 @@
 				0D2F49F71E393C2400D123C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
